@@ -1,14 +1,14 @@
 import React from "react"
 
-export default function Card({children, title}) {
+export default function Card({title, children}) {
     return (
         <div className="card">
             <div className="img-background">
                 <img src="../../icons/cloud.svg" />
             </div>
             <div className="text-wrapper">
-                <div className="card-title">{title}</div>
-                <div className="card-description">{children}</div>
+                <p className="card-title">{title}</p>
+                <p className="card-description">{children}</p>
             </div>
         </div>
     )

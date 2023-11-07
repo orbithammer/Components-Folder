@@ -1,32 +1,26 @@
 import React from "react"
 
-let bannerIcon = "<missing>"
-let title = "MISSING"
-let altMessage = title
+let altMessage = ""
 
-export default function Banner({children, status}) {
+export default function Banner({title, status, children}) {
     if(status === "success") {
-        title = "Congratulations"
         altMessage = "checkmark icon"
-    }
-    if(status === "warning") {
-        title = "Attention" 
+    } else if(status === "warning") {
         altMessage = "exclamation mark icon"       
-    }
-    if(status === "error") {
-        title = "There is a problem with your application" 
+    } else if(status === "error") {
         altMessage = "'x' icon"       
-    }
-    if(status === "neutral") {
-        title = "Update available"   
+    } else if(status === "neutral") {
         altMessage = "'i' icon"     
+    } else {
+        status = "missing"
+        altMessage = "missing icon"
     }
     return (
         <div className={`banner banner-${status}`}>
             <img src={`../../icons/${status}.svg`} alt={altMessage} />
             <div className="text-wrapper">
-                <div className="banner-title">{title}</div>
-                {children && <div className="banner-text">{children}</div>}
+                <p className="banner-title">{title}</p>
+                {children && <p className="banner-text">{children}</p>}
             </div>
         </div>
     )
