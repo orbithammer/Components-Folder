@@ -1,7 +1,6 @@
 import React from "react"
 
 export default function Testimonial({children, img, name, jobTitle}) {
-    console.log(img)
     let withImg = ""
     if(img) withImg = "-with-img"
 

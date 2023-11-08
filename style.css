@@ -7,7 +7,7 @@ body {
     margin: 0;
     padding: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     font-family: Inter;
 }
 
@@ -74,8 +74,10 @@ button.button-danger {
 }
 
 .menu {
+    /* background: red; */
     position: relative;
     display: inline-block;
+    margin-right: auto;
 }
 
 .menu-button {
@@ -111,6 +113,14 @@ button.button-danger {
     border-bottom: 1px solid #6B7280;
 }
 
+.renders {
+    background: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
 .box {
     height: 100px;
     width: 100px;
@@ -132,12 +142,11 @@ button.button-danger {
     justify-content: center;
     width: 4.1875em;
     height: 1.5em;
-    /* filter: drop-shadow(rgba(0,0,0,0.25) 0 4px 4px); */
     font-family: Inter;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 0.875em;
     line-height: 1.25em;
-    padding: 2px 12px;
+    padding: 0.125rem 0.75rem;
 }
 
 .badge.square {
@@ -209,7 +218,7 @@ button.button-danger {
 }
 
 .banner-title {
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .banner-text {
@@ -314,7 +323,7 @@ button.button-danger {
 .card-title {
     margin: 3.5em 0 1.25em;
     font-size: 1.125em;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .card-description {
@@ -327,7 +336,7 @@ button.button-danger {
 
 .testimonial,
 .testimonial-with-img {
-    padding: 0 1em;    
+    padding: 0 1em;  
 }
 
 .testimonial {
@@ -340,7 +349,7 @@ button.button-danger {
     background-repeat: no-repeat;
     background-size: 8.4375em;
     background-position: bottom left;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .workcationLogo {
@@ -363,7 +372,7 @@ button.button-danger {
 .testimonialName {
     display: block;
     color: #111827;
-    font-weight: 700;
+    /* font-weight: 700; */
 }
 
 .testimonialDivider {
@@ -381,7 +390,7 @@ button.button-danger {
     flex-direction: column;
     background-color: #2545B8;
     position: relative;
-    margin-top: 5rem;
+    margin-top: 6rem;
     font-weight: 400;
 }
 
@@ -409,6 +418,10 @@ button.button-danger {
 .testimonial-with-img .testimonialName,
 .testimonial-with-img .testimonialTitle {
     color: #fff;
+}
+
+.testimonial-with-img .testimonialName {
+    font-weight: 700;
 }
 
 @media screen and (min-width: 400px) {
