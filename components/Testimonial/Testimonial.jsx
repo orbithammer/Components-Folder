@@ -7,34 +7,29 @@ export default function Testimonial({children, img, name, jobTitle}) {
     return(
         <div className={`testimonial${withImg}`}>
             {img ? 
-                <img className="testimonialPortrait" src={img} />
+                <img className="testimonial-portrait" src={img} />
                 :
-                <span className="workcationLogo">
+                <span className="workcation-logo">
                     <img src="../../icons/workcationIcon.svg" />
                     <img src="../../icons/work.svg" />
                     <img src="../../icons/cation.svg" />
                 </span>
             }
-            <div className="testimonialContentWrapper">
+            <div className="testimonial-content-wrapper">
             {img ? 
                 <>
-                    <img className="testimonialQuoteIcon" src="../../icons/openQuote.svg" />
-                    <p className="testimonialText">{children}</p>
+                    <img className="testimonial-quote-icon" src="../../icons/openQuote.svg" />
+                    <p className="testimonial-text">{children}</p>
                 </>
                 : 
-                <p className="testimonialText">“{children}”</p>
+                <p className="testimonial-text">“{children}”</p>
             }
-                <div className="testimonialNameTitle">
-                    <span className="testimonialName">{name}</span>
-                    <img className="testimonialDivider" src="../../icons/divider.svg" />
-                    <span className="testimonialTitle">{jobTitle}</span>
+                <div className="testimonial-name-title">
+                    <span className="testimonial-name">{name}</span>
+                    <img className="testimonial-divider" src="../../icons/divider.svg" />
+                    <span className="testimonial-title">{jobTitle}</span>
                 </div>
             </div>
         </div>
     )
 }
-
-// <div>
-//                     <img className="testimonialPortrait" src="../../images/portraitMobile.png" />
-//                     <img src="../../icons/openQuote.svg" />
-//                 </div>

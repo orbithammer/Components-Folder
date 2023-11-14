@@ -1,16 +1,18 @@
 import React from "react"
 import useToggle from "../../hooks/useToggle"
+import Badge from "../../components/Badge/Badge"
+import Banner from "../../components/Banner/Banner"
 
 const MenuContext = React.createContext()
 export { MenuContext }
 
 
-
-export default function Menu({ children, onOpen }) {
+export default function Menu({ children, onOpen, setComponentState }) {
     const [menuState, setMenuState] = React.useState("Home")
-    
+
     function handleClick(buttonValue) {
-        setMenuState(buttonValue)
+        setComponentState(buttonValue)
+        toggleOpen(false)
     }
     
     const [open, toggleOpen] = useToggle({
@@ -25,17 +27,6 @@ export default function Menu({ children, onOpen }) {
                     {children}
                 </div>
             </MenuContext.Provider>
-            <div className="renders">
-                {menuState === "Badges" && 
-                    <>
-                        <h1>Badges</h1>
-                        <p>fsdafds</p>
-                    </>}
-                {menuState === "Banners" && <h1>Banners</h1>}
-                {menuState === "Cards" && <h1>Cards</h1>}
-                {menuState === "Testimonials" && <h1>Testimonials</h1>}
-                {menuState === "Home" && <h1>Home</h1>}
-            </div>
         </>
     )
 }

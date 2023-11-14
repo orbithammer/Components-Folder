@@ -1,10 +1,11 @@
 import React from "react"
 
-export default function Card({title, children}) {
+export default function Card({img, color, title, children}) {
+
     return (
-        <div className="card">
-            <div className="img-background">
-                <img src="../../icons/cloud.svg" />
+        <div className={`card`}>
+            <div className={`card-img-background ${color}`}>
+                <img src={img}/>
             </div>
             <div className="text-wrapper">
                 <p className="card-title">{title}</p>
