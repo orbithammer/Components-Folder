@@ -461,7 +461,7 @@ button.button-danger {
     font-weight: 700;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 600px) {
     .testimonial,
     .testimonial-with-img {
         width: 100%;

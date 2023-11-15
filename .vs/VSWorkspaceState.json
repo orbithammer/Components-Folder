@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\components"
   ],
-  "SelectedNode": "\\index.jsx",
+  "SelectedNode": "\\components\\Star.jsx",
   "PreviewInSolutionExplorer": false
 }
