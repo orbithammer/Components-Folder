@@ -128,22 +128,3 @@ function App() {
 }
 
 ReactDOM.createRoot(document.getElementById('root')).render(<App />);
-
-// <Banner title="Congratulations!" status="success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</Banner>
-//       <Card title="Easy Deployment">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card>
-
-// <Testimonial name="May Andersons" jobTitle="Workcation, CTO" img="images/portrait.webp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit. </Testimonial>
-
-// <h1>Your components go here</h1>
-//       <Badge shape="pill" color="grey">Badge</Badge>
-//       <Banner title="Congratulations!" status="success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam.</Banner>
-//       <Card title="Easy Deployment">Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card>
-//       <Testimonial name="May Andersons" jobTitle="Workcation, CTO" img="images/portrait.webp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit. </Testimonial>
-
-// <Banner
-//         status={status}
-//         title={title}
-//         key={`bannerSingle ${status}`}
-//       ></Banner>
-
-<Banner title="Congratulations!" status="success">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid pariatur, ipsum similique veniam quo totam eius aperiam dolorum.</Banner>

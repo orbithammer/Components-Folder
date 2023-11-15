@@ -87,7 +87,6 @@ button.button-danger {
 }
 
 .menu {
-    /* background: red; */
     position: relative;
     display: inline-block;
     margin-right: auto;
@@ -128,7 +127,6 @@ button.button-danger {
 }
 
 .renders {
-    /* background: red; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -314,7 +312,6 @@ button.button-danger {
     width: 3em;
     height: 3em;
     border-radius: 6px;
-    /* background: red; */
 }
 
 .card-img-background.blue {
@@ -405,9 +402,7 @@ button.button-danger {
 }
 
 .testimonial-name-title {
-    /* background: red; */
     margin: 0 auto 2.5em 0;
-    /* margin-right: auto; */
     align-self: center;
     line-height: 1.5em;
 }
@@ -415,7 +410,6 @@ button.button-danger {
 .testimonial-name {
     display: block;
     color: #111827;
-    /* font-weight: 700; */
 }
 
 .testimonial-divider {
@@ -480,7 +474,6 @@ button.button-danger {
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* background: red; */
     }
     
     .testimonial .testimonial-text {
@@ -493,12 +486,10 @@ button.button-danger {
     .testimonial .testimonial-name-title {
         display: flex;
         margin: 0 0 2.5em 0;
-        /* background: red; */
     }
     
     .testimonial .testimonial-name,
     .testimonial .testimonial-divider {
-        /* background: red; */
         display: inline-block;
     }
     
@@ -512,18 +503,13 @@ button.button-danger {
     .testimonial-with-img {
         flex-direction: row;
         height: 25em;
-        /* align-items: center; */
-        /* justify-content: center; */
     }
 
     .testimonial-with-img .testimonial-content-wrapper {
-        /* background: red; */
-        /* text-align: left; */
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         margin: 5em 0 5em 30em;
-        /* height: 25em; */
         min-width: 50em;
     }
     
@@ -538,7 +524,6 @@ button.button-danger {
     }
     
     .testimonial-with-img .testimonial-name {
-        /* background: red; */
         display: block;
         font-weight: 700;
     }
@@ -550,19 +535,11 @@ button.button-danger {
 
 /* BADGES PAGE */
 
-.badgesWrapper {
-    /* display: flex; 
-    flex-direction: row; */
-    /* align-items: center; */
-}
-
 .badges-line-wrapper {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     gap: 0.5em;
-    /* margin: 0 0 0 auto; */
-    /* background: red; */
 }
 
 /* BANNERS PAGE */

@@ -7,7 +7,7 @@ export default function Testimonial({children, img, name, jobTitle}) {
     return(
         <div className={`testimonial${withImg}`}>
             {img ? 
-                <img className="testimonial-portrait" src={img} />
+                <img className="testimonial-portrait" src={img} alt="portrait" />
                 :
                 <span className="workcation-logo">
                     <img src="../../icons/workcationIcon.svg" />
@@ -18,7 +18,7 @@ export default function Testimonial({children, img, name, jobTitle}) {
             <div className="testimonial-content-wrapper">
             {img ? 
                 <>
-                    <img className="testimonial-quote-icon" src="../../icons/openQuote.svg" />
+                    <img className="testimonial-quote-icon" src="../../icons/openQuote.svg" alt="quotation marks icon" />
                     <p className="testimonial-text">{children}</p>
                 </>
                 : 
@@ -26,7 +26,7 @@ export default function Testimonial({children, img, name, jobTitle}) {
             }
                 <div className="testimonial-name-title">
                     <span className="testimonial-name">{name}</span>
-                    <img className="testimonial-divider" src="../../icons/divider.svg" />
+                    <img className="testimonial-divider" src="../../icons/divider.svg" alt="slash" />
                     <span className="testimonial-title">{jobTitle}</span>
                 </div>
             </div>
