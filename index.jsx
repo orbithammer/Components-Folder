@@ -104,10 +104,10 @@ function App() {
                   <>
                     <h1>Cards</h1>
                     <div className="cards-wrapper">
-                      <Card img="../../icons/cloud.svg" color="blue" title="Easy Deployment" >Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card>
-                      <Card img="../../icons/tree.svg" color="green" title="Eco Friendly" >Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card>
-                      <Card img="../../icons/house.svg" color="red" title="Time Sensitive Notifications" >Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card>
-                      <Card img="../../icons/lemon.svg" color="yellow" title="High Quality" >Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card>
+                      <Card img="./icons/cloud.svg" color="blue" title="Easy Deployment" >Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card>
+                      <Card img="./icons/tree.svg" color="green" title="Eco Friendly" >Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card>
+                      <Card img="./icons/house.svg" color="red" title="Time Sensitive Notifications" >Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card>
+                      <Card img="./icons/lemon.svg" color="yellow" title="High Quality" >Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card>
                     </div>
                   </>}
                 {componentState === "Testimonials" && 
@@ -115,7 +115,7 @@ function App() {
                     <h1>Testimonials</h1>
                     <p className="info">Narrow/widen the browser window to switch between desktop/mobile displays.</p>
                     <Testimonial name="May Andersons" jobTitle="Workcation, CTO" img="">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit. </Testimonial>
-                    <Testimonial name="May Andersons" jobTitle="Workcation, CTO" img="images/portrait.webp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit. </Testimonial>
+                    <Testimonial name="May Andersons" jobTitle="Workcation, CTO" img="./images/portrait.webp">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna nulla vitae laoreet augue. Amet feugiat est integer dolor auctor adipiscing nunc urna, sit. </Testimonial>
                   </>}
                 {componentState === "Home" && 
                   <>

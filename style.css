@@ -377,7 +377,7 @@ button.button-danger {
     align-items: center;
     width: 23.5em;
     background-color: #F9FAFB;
-    background-image: url(icons/dotbackground.svg);
+    background-image: url(icons/dotBackground.svg);
     background-repeat: no-repeat;
     background-size: 8.4375em;
     background-position: bottom left;
