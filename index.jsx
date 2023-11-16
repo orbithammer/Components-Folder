@@ -104,10 +104,10 @@ function App() {
                   <>
                     <h1>Cards</h1>
                     <div className="cards-wrapper">
-                      <Card img="./icons/cloud.svg" color="blue" title="Easy Deployment" >Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card>
-                      <Card img="./icons/tree.svg" color="green" title="Eco Friendly" >Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card>
-                      <Card img="./icons/house.svg" color="red" title="Time Sensitive Notifications" >Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card>
-                      <Card img="./icons/lemon.svg" color="yellow" title="High Quality" >Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card>
+                      <Card img="/icons/cloud.svg" color="blue" title="Easy Deployment" >Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card>
+                      <Card img="/icons/tree.svg" color="green" title="Eco Friendly" >Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card>
+                      <Card img="/icons/house.svg" color="red" title="Time Sensitive Notifications" >Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card>
+                      <Card img="/icons/lemon.svg" color="yellow" title="High Quality" >Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</Card>
                     </div>
                   </>}
                 {componentState === "Testimonials" && 
