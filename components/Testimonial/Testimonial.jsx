@@ -18,7 +18,7 @@ export default function Testimonial({children, img, name, jobTitle}) {
             <div className="testimonial-content-wrapper">
             {img ? 
                 <>
-                    <img className="testimonial-quote-icon" src="../../icons/openQuote.svg" alt="quotation marks icon" />
+                    <img className="testimonial-quote-icon" src="../../icons/openquote.svg" alt="quotation marks icon" />
                     <p className="testimonial-text">{children}</p>
                 </>
                 : 
