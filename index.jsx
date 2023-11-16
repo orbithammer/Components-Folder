@@ -60,7 +60,7 @@ function App() {
   const [componentState, setComponentState] = React.useState("Home")
   
   return (
-    <>
+    <div>
       <Menu setComponentState={setComponentState}>
         <Menu.Button>Click here</Menu.Button>
         <Menu.Dropdown>
@@ -123,7 +123,7 @@ function App() {
                     <p className="info">Select the component from the menu above.</p>
                   </>}
             </div>
-    </>
+    </div>
   )
 }
 
