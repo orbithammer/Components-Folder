@@ -17,7 +17,7 @@ export default function Banner({title, status, children}) {
     }
     return (
         <div className={`banner banner-${status}`}>
-            <img src={`icons/${status}.svg`} alt={altMessage} />
+            <img src={`public/icons/${status}.svg`} alt={altMessage} />
             <div className="text-wrapper">
                 <p className="banner-title">{title}</p>
                 {children && <p className="banner-text">{children}</p>}
